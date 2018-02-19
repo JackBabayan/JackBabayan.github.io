@@ -1,0 +1,39 @@
+@import "public/styles/partials/variables";
+
+ @mixin font ($display,$li-he ,$vert-aline , $color,$pading ,$margin,$text-aline, $font-fem , $font-size  ){
+ 	display:$display;
+	line-height:$li-he;
+    vertical-align:$vert-aline;
+    color:  $color;
+    padding: $pading;
+    margin:$margin; 
+    text-align:$text-aline; 
+  font: {
+    family: $font-fem ;
+    size: $font-size;
+  } 
+}
+@mixin aftbef ($display,$content,$height,$width){
+    display: $display;
+    content:$content ;
+	height:$height;
+    width:$width;
+}
+@mixin background ($wigth , $height, $padding  ,$margin ,$repide, $size , $pozic){
+	width: $wigth;
+	min-height: $height;
+	padding:$padding ;
+	margin: $margin;
+	background-repeat: $repide;
+	background-size: $size;
+	background-position:$pozic;
+}
+@mixin position ($position , $top,$botton, $left,$right,$margin ) {
+	position: $position;
+	top: $top;
+	bottom:$botton;
+	left: $left;
+    right: $right;
+	margin: $margin;
+}
+

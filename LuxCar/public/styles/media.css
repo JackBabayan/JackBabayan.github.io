@@ -1,0 +1,18 @@
+/*@media (max-width: 1024px){
+    .contact a{
+        font-size: 16px;
+    }
+    #none{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .logo-name {
+        display: none;
+    }
+    .logo {
+    display: block;
+    text-align: -webkit-center;
+    width: 100%;
+}
+}*/
